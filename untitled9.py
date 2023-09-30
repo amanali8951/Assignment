@@ -67,12 +67,10 @@ print(list)
 
 #ANS 8
 
-List = [5, 10, 15, 20, 25, 50, 20]
-for i in range(len(List)):
-    if List[i] == value_to_replace:
-        List[i] = replacement_value
-        break  # Stop after the first occurrence is replaced
-print(List)
+list1=[5, 10, 15, 20, 25, 50, 20]
+index=list1.index(20)
+list1[index]=200
+list1
 
 #ANS 9
 
